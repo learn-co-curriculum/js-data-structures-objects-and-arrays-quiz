@@ -127,7 +127,7 @@ const result = [4, 5, 6, ...oneTwoThree, ...sevenEightNine]
 ( ) `[1, 2, 3, 4, 5, 6, 7, 8, 9]`
 ( ) `Error`
 
-?: Given the array `const letters = ["alpha", "gamma", "delta"]`, which operation(s) _return_ the array `["alpha", "beta", "gamma", "delta"]`?
+?: Given the array `const letters = ["alpha", "gamma", "delta"]`, which operation(s) _return_ the array `["alpha", "beta", "gamma", "delta"]` ***without*** mutating (changing) the `letters` `Array`?
 
 ( ) `letters.push("beta")`
 ( ) `letters.unshift('beta')`
