@@ -133,7 +133,7 @@ const result = [4, 5, 6, ...oneTwoThree, ...sevenEightNine]
 ( ) `letters.unshift('beta')`
 (x) `[...letters.slice(0, 1), 'beta', ...letters.slice(1)]`
 ( ) `letters.splice(1, 1, 'beta')`
-(x) `letters.splice(1, 0, 'beta')`
+( ) `letters.splice(1, 0, 'beta')`
 
 ???
 
